@@ -63,4 +63,26 @@ h1 {
   background-color: var(--accent-text-color);
 }
 
-/* Quality */ ;
+/* Quality */
+h2,
+h3 {
+  color: var(--primary-text-color);
+}
+
+/* Work */
+footer {
+  background-color: #2f303a;
+}
+
+.logo:hover,
+.logo:focus {
+  color: var(--accent-text-color);
+}
+
+.address,
+.logo {
+  color: var(--white-text-color);
+}
+.address a {
+  color: var(--white06-text-color);
+}
