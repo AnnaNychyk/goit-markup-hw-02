@@ -58,4 +58,9 @@ h1 {
   background-color: #2f303a;
 }
 
+.button {
+  color: var(--white-text-color);
+  background-color: var(--accent-text-color);
+}
+
 /* Quality */ ;
