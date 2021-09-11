@@ -1,0 +1,61 @@
+/* основной цвет текста #212121; */
+/* вторичный цвет текста #757575; */
+/* цвет акцента #2196F3; */
+/* Белый #FFFFFF; */
+/* Черный для лого #000000; */
+/* Белый с прозрачностью rgba(255, 255, 255, 0.6); */
+
+/* цвет фона в хедере #FFFFFF; */
+/* цвет фона героя и футера #2F303A; */
+/* цвет фона главный #E5E5E5; */
+/* цвет фона вторичный #F5F4FA; */
+
+:root {
+  --primary-text-color: #212121;
+  --secondary-text-color: #757575;
+  --accent-text-color: #2196f3;
+  --white-text-color: #ffffff;
+  --logo-text-color: #000000;
+  --white06-text-color: rgba(255, 255, 255, 0.6);
+}
+
+body {
+  background-color: #ffffff;
+  color: var(--secondary-text-color);
+}
+
+.list {
+  list-style: none;
+}
+
+/* Logo */
+.logo {
+  color: var(--logo-text-color);
+}
+
+/* Site-nav */
+.site-nav a {
+  color: var(--primary-text-color);
+}
+
+.site-nav a:hover,
+.site-nav a:focus,
+.auth-nav a:hover,
+.auth-nav a:focus {
+  color: var(--accent-text-color);
+}
+
+.auth-nav a {
+  color: inherit;
+}
+
+/* Hero */
+h1 {
+  color: var(--white-text-color);
+}
+
+.hero {
+  background-color: #2f303a;
+}
+
+/* Quality */ ;
