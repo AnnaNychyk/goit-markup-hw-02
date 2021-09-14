@@ -96,3 +96,19 @@ footer {
 .address .link {
   color: var(--white06-text-color);
 }
+
+/* Projects */
+.hidden {
+  display: none;
+}
+
+.projects-title,
+.projects-text {
+  color: var(--primary-text-color);
+}
+
+.projects-button:hover,
+.projects-button:focus {
+  background-color: var(--accent-text-color);
+  color: var(--white-text-color);
+}
