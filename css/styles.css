@@ -28,20 +28,28 @@ body {
   list-style: none;
 }
 
-/* Logo */
-.logo {
+.link {
+  text-decoration: none;
+}
+
+/* Header logo */
+.header-logo {
   color: var(--logo-text-color);
 }
 
 /* Site-nav */
-.site-nav a {
+.site-nav .link {
   color: var(--primary-text-color);
 }
 
-.site-nav a:hover,
-.site-nav a:focus,
-.auth-nav a:hover,
-.auth-nav a:focus {
+.site-nav .link.current {
+  color: var(--accent-text-color);
+}
+
+.site-nav .link:hover,
+.site-nav .link:focus,
+.auth-nav .link:hover,
+.auth-nav .link:focus {
   color: var(--accent-text-color);
 }
 
@@ -50,7 +58,7 @@ body {
 }
 
 /* Hero */
-h1 {
+.hero-title {
   color: var(--white-text-color);
 }
 
@@ -58,31 +66,33 @@ h1 {
   background-color: #2f303a;
 }
 
-.button {
+.hero-button {
   color: var(--white-text-color);
   background-color: var(--accent-text-color);
+  cursor: pointer;
 }
 
-/* Quality */
-h2,
-h3 {
+/* Quality and Work and Team */
+.quality-title,
+.work-title,
+.team-title {
   color: var(--primary-text-color);
 }
 
-/* Work */
+/* Footer */
 footer {
   background-color: #2f303a;
 }
 
-.logo:hover,
-.logo:focus {
+.footer-logo:hover,
+.footer-logo:focus {
   color: var(--accent-text-color);
 }
 
 .address,
-.logo {
+.footer-logo {
   color: var(--white-text-color);
 }
-.address a {
+.address .link {
   color: var(--white06-text-color);
 }
