@@ -48,6 +48,10 @@ body {
   line-height: 1.2;
 }
 
+.web {
+  color: var(--accent-text-color);
+}
+
 /* Site-nav */
 .site-nav .link {
   color: var(--primary-text-color);
@@ -168,7 +172,7 @@ body {
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
-  line-height: 1.17;
+  line-height: 1.7;
 }
 
 .footer-logo {
